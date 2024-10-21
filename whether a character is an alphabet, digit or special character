@@ -1,0 +1,7 @@
+char=input("Enter a single character =")
+if char>='a A' and char<='z Z':
+    print("you entered an alphabet")
+elif char>='0' and char<='9':
+    print(" you emtered a digit")
+else:
+    print("you entered a special character")
