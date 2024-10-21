@@ -1,0 +1,19 @@
+physics=int(input("enter marks of physics ="))
+chemistry=int(input("enter marks of chemistry ="))
+biology=int(input("enter marks of biology ="))
+maths=int(input("enter marks of maths ="))
+computer=int(input("enter marks of computer ="))
+totalmarks=physics+chemistry+biology+maths+computer
+percent=(totalmarks/500)*100
+if percent >=90:
+    print("grade A")
+elif percent>=80:
+    print(" grade B")
+elif percent>=70:
+    print("grade C")
+elif percent>=60:
+    print("grade D")
+elif percent>=50:
+    print("grade E")
+elif percent<=40:
+    print("grade F")
