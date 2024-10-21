@@ -1,0 +1,6 @@
+a=99
+b=88
+If a > b:
+        print("a is biggest")
+else:
+    print("b is biggest")
